@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>K3vro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body class="container-fluid">
+
+<div class="col-sm-4 col-sm-offset-4">
+<div class="board">
+		<div class="row">
+			<div class="col-sm-6">
+				<p>Scoreboard</p>
+			</div>
+			<div class="col-sm-6">
+				<button class="btn btn-default" id="reset">Restart</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<p>PLAYER 1</p>
+				<p id="sp1"></p>
+			</div>
+			<div class="col-sm-6">
+				<p>PLAYER 2</p>
+				<p id="sp2"></p>
+			</div>
+		</div>
+</div>
+
+
+    <div class="row">
+        <table id="game">
+            <tr>
+                <td id=0></td>
+                <td id=1></td>
+                <td id=2></td>
+            </tr>
+            <tr>
+                <td id=3></td>
+                <td id=4></td>
+                <td id=5></td>
+            </tr>
+            <tr>
+                <td id=6></td>
+                <td id=7></td>
+                <td id=8></td>
+            </tr>
+        </table>
+    </div>
+	
+</div>
+	<script src="js/script.js"></script>
+</body>
+</html>

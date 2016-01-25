@@ -1,0 +1,34 @@
+body {
+    font-size: 0.8em;
+    background-color:gray;
+}
+
+#search {
+    padding: 2px 4px;
+    width: 300px; height: 22px;
+    border: 2px solid black;
+}
+
+#search:hover, #search:focus {
+    border-color: #777;
+}
+
+#results {
+    display: none;
+    width: 300px;
+    border: 2px solid black;
+    border-top-width: 0;
+    background-color: #FFF;
+}
+
+#results div {
+    width: 300px;
+    padding: 2px 4px;
+    text-align: left;
+    border: 0;
+    background-color: #FFF;
+}
+
+.selectedResult {
+    background-color: #dd1820 !important;
+}
